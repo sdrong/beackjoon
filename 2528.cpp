@@ -47,7 +47,7 @@ void re(int r, int c)
 		{
 			for (int j = 0; j < 9; j++)
 			{
-				cout << arr[i][j];
+				cout << arr[i][j] << " ";
 			}
 			cout << "\n";
 			endflag = 1;

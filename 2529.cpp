@@ -42,8 +42,6 @@ bool check(string s)
 
 void re(int cnt, string s)
 {
-	if (!check(s))
-		return;
 	if (cnt == n+1)
 	{
 		if (!check(s))
